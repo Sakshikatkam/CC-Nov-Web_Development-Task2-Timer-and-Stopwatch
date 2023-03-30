@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #030311;
+    
+    
+}
+#mainstopwatch {
+    width: 301px;
+    margin: 101px auto;
+    padding: 61px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    /* background: #0d0d2b; */
+    background: #22225a;
+   
+
+}
+#mainstopwatch span{
+    width: 55px;
+    color: #ffffff;
+    margin: 3px;
+    padding: 11px;
+    border-radius: 11px;
+    display: inline-block;
+    background: #3b3b68;
+   
+
+    
+}
+#mainstopwatch button{
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    height: 56px;
+    color: white;
+    background-color: #2f70ff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+#mainstopwatch button:nth-of-type(2){
+    background-color: red;
+
+}
+#mainstopwatch button:last-child{
+    margin-top: 17px;
+    background-color: orange;
+}
+#mainstopwatch button:nth-of-type(1){
+    background-color: rgb(40, 152, 40);
+}
+#mainstopwatch button:hover{
+    background: grey;
+  
+}
